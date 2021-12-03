@@ -11,7 +11,7 @@ class Calculadora:
               "(4) divisão \n")
         operacao = int(input("Qual operação deve ser realizada? "))
         operacoes = [1,2,3,4]
-        while operacao != operacoes:
+        while not operacao in operacoes:
             print("Insira um valor válido.")
             operacao = int(input("Qual operação deve ser realizada? "))
 
@@ -44,20 +44,21 @@ class Calculadora:
             print((self.divisao(primeiro_valor, segundo_valor)))
             self.opcoes()
 
+    if __name__ == '__main__':
+        def soma(self, valor1, valor2):
+            self.resultado = valor1 + valor2
+            return f'Resultado = {self.resultado} '
 
-def soma(self, valor1, valor2):
-    self.resultado = valor1 + valor2
-    return f'Resultado = {self.resultado} '
+        def subtracao(self, valor1, valor2):
+            self.resultado = valor1 - valor2
+            return f'Resultado = {self.resultado}'
 
-def subtracao(self, valor1, valor2):
-    self.resultado = valor1 - valor2
-    return f'Resultado = {self.resultado}'
+        def multiplicacao(self, valor1, valor2):
+            self.resultado = valor1 * valor2
+            return f'Resultado = {self.resultado}'
 
-def multiplicacao(self, valor1, valor2):
-    self.resultado = valor1 * valor2
-    return f'Resultado = {self.resultado}'
+        def divisao(self, valor1, valor2):
+            self.resultado = valor1 / valor2
+            return f'Resultado = {self.resultado}'
 
-def divisao(self, valor1, valor2):
-    self.resultado = valor1 / valor2
-    return f'Resultado = {self.resultado}'
 
