@@ -1,10 +1,9 @@
 
 class Calculadora:
     def __init__(self):
-        self.opcoes
 
-    def opcoes(self):
-        print("*** Teste pra calculadora ***")
+        def opcoes(self):
+            print("*** Teste pra calculadora ***")
         print("(1) soma \n"
               "(2) subtração \n"
               "(3) multiplicação \n"
@@ -44,21 +43,24 @@ class Calculadora:
             print((self.divisao(primeiro_valor, segundo_valor)))
             self.opcoes()
 
-    if __name__ == '__main__':
-        def soma(self, valor1, valor2):
-            self.resultado = valor1 + valor2
-            return f'Resultado = {self.resultado} '
+if __name__ == '__main__':
+       calculadora = Calculadora()
+       calculadora.opcoes()
 
-        def subtracao(self, valor1, valor2):
-            self.resultado = valor1 - valor2
-            return f'Resultado = {self.resultado}'
+    def soma(self, valor1, valor2):
+        self.resultado = valor1 + valor2
+        return f'Resultado = {self.resultado} '
 
-        def multiplicacao(self, valor1, valor2):
-            self.resultado = valor1 * valor2
-            return f'Resultado = {self.resultado}'
+    def subtracao(self, valor1, valor2):
+        self.resultado = valor1 - valor2
+        return f'Resultado = {self.resultado}'
 
-        def divisao(self, valor1, valor2):
-            self.resultado = valor1 / valor2
-            return f'Resultado = {self.resultado}'
+    def multiplicacao(self, valor1, valor2):
+        self.resultado = valor1 * valor2
+        return f'Resultado = {self.resultado}'
+
+    def divisao(self, valor1, valor2):
+        self.resultado = valor1 / valor2
+        return f'Resultado = {self.resultado}'
 
 
