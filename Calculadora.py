@@ -17,29 +17,29 @@ class Calculadora:
 
 
         if operacao == 1:
-            primeiro_valor = input("Insira o primeiro valor: ")
-            segundo_valor = input("Insira o segundo valor : ")
+            primeiro_valor = int(input("Insira o primeiro valor: "))
+            segundo_valor = int(input("Insira o segundo valor : "))
 
             print(self.soma(primeiro_valor, segundo_valor))
             self.opcoes()
 
         if operacao == 2:
-            primeiro_valor = input(" Insira o primeiro valor: ")
-            segundo_valor =  input("Insira o segundo valor : ")
+            primeiro_valor = int(input(" Insira o primeiro valor: "))
+            segundo_valor =  int(input("Insira o segundo valor : "))
 
             print(self.subtracao(primeiro_valor, segundo_valor))
             self.opcoes()
 
         if operacao == 3:
-            primeiro_valor = input(' Insira o primeiro valor: ')
-            segundo_valor = input("Insira o segundo valor : ")
+            primeiro_valor = int(input(' Insira o primeiro valor: '))
+            segundo_valor = int(input("Insira o segundo valor : "))
 
             print((self.multiplicacao(primeiro_valor, segundo_valor)))
             self.opcoes()
 
         if operacao == 4:
-            primeiro_valor = input(' Insira o primeiro valor: ')
-            segundo_valor = input("Insira o segundo valor : ")
+            primeiro_valor = int(input(' Insira o primeiro valor: '))
+            segundo_valor = int(input("Insira o segundo valor : "))
 
             print((self.divisao(primeiro_valor, segundo_valor)))
             self.opcoes()
