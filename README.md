@@ -6,3 +6,4 @@ subtração (-)
 divisão (/)
 multiplicação (*)
 ```
+:)
